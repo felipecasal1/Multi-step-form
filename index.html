@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,67 +10,264 @@
 
 
 <body>
-    <section class="container-step1">
-        <div class="steps-container">
+    <main>
+
+        <section class="container-step1" >
+            <div class="container-main-steps">
 
 
-            <div class="container-steps">
+                <div class="container-steps">
+
+
+                    <span class="step-circle active">1</span>
+                    <h3 class="title-step">Step 1</h3>
+                    <div class="container-text-below">
+                        <p class="text-step">your Info</p>
+                    </div>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle">2</span>
+                    <h3 class="title-step">Step 2</h3>
+                    <p class="text-step">Select plan</p>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle">3</span>
+                    <h3 class="title-step">Step 3</h3>
+                    <p class="text-step">Add-ons</p>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle">4</span>
+                    <h3 class="title-step">Step 4</h3>
+                    <p class="text-step">Summary</p>
+                </div>
+
+
+
+            </div>
+            <div class="personal-info-container">
+                <div class="style-info-container">
+
+
+                    <h1>Personal Info</h1>
+                    <p class="text-personal-info">Please provide your name,
+                        email <br> address, and phone number.</p>
+
+                    <form action="">Name</form>
+                    <input type="text" class="input-name">
+
+                    <form action="">Email Address</form>
+                    <input type="email" class="input-email">
+
+                    <form action="">Phone number</form>
+                    <input type="number"class="input-number">
+
+
+
+
+
+                    <button class="btn-steps" id="btn-steps">Next Step</button>
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+        <section class="container-step-2" style="display: none;">
+            <div class="container-main-steps">
+
+
+                <div class="container-steps">
+
+
+                    <span class="step-circle ">1</span>
+                    <h3 class="title-step">Step 1</h3>
+                    <div class="container-text-below">
+                        <p class="text-step">your Info</p>
+                    </div>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle active">2</span>
+                    <h3 class="title-step">Step 2</h3>
+                    <p class="text-step">Select plan</p>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle">3</span>
+                    <h3 class="title-step">Step 3</h3>
+                    <p class="text-step">Add-ons</p>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle">4</span>
+                    <h3 class="title-step">Step 4</h3>
+                    <p class="text-step">Summary</p>
+                </div>
+
+
+
+            </div>
+            <div class="personal-info-container">
+                <div class="style-info-container">
+
+
+                    <h1>Select your Plan</h1>
+                    <p>you have the option of monthly or yearly biling</p>
+
+                    <div class="container-plans">
+                        <button class="btn-plans">
+                            <img src="/img/icon-arcade.svg" alt="">
+                            Arcade
+                            <span>$12/mo</span>
+                        </button>
+
+                        <button class="btn-plans">
+                            <img src="/img/icon-advanced.svg" alt="">
+                            Advanced
+                            <span>$12/mo</span>
+                        </button>
+
+                        <button class="btn-plans">
+                            <img src="/img/icon-pro.svg" alt="">
+                            Pro
+                            <span>$12/mo</span>
+                        </button>
+
+
+
+                    </div>
+
+
+                    <div class="time">
+                        <p>Monthy</p>
+
+                        <div class="toggleContainer">
+
+                            <input type="checkbox" id="switch" class="toggle">
+
+                            <label for="switch" class="switch"></label>
+
+                        </div>
+                        <p>Yearly</p>
+                    </div>
+
+
+
+
+                    <div class="continer-buttons">
+                        <button class="btn-go-back" id="">Go Back</button>
+                        <button class="btn-next-steps" id="btn-next-steps">Next Step</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="container-step-3" style="display: none;">
+            <div class="container-main-steps">
+
+
+                <div class="container-steps">
+
+
+                    <span class="step-circle ">1</span>
+                    <h3 class="title-step">Step 1</h3>
+                    <div class="container-text-below">
+                        <p class="text-step">your Info</p>
+                    </div>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle ">2</span>
+                    <h3 class="title-step">Step 2</h3>
+                    <p class="text-step">Select plan</p>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle active">3</span>
+                    <h3 class="title-step">Step 3</h3>
+                    <p class="text-step">Add-ons</p>
+                </div>
+                <div class="container-steps">
+                    <span class="step-circle">4</span>
+                    <h3 class="title-step">Step 4</h3>
+                    <p class="text-step">Summary</p>
+                </div>
+
+
+
+            </div>
+            <div class="personal-info-container">
+                <div class="style-info-container">
+
+
+                    <h1> Pick add-ons</h1>
+                    <p>Add-ons help enhance yout gaming experience</p>
+
+                    <div class="container-add-ons">
+
+                        <button class="btn-add">
+
+                            <input class="checkbox-btn-add"  type="checkbox" name="" id="online-servie-checkbox">
+                            <h3  class="h3-btn-add">Online Service</h3>
+                            <p class="text-btn-add">Access to multiplayer games</p>
+                            <span>+$1/mon</span>
+
+                        </button>
+
+                        <button class="btn-add">
+                            <input class="checkbox-btn-add" type="checkbox" name="" id="large-storage-checkbox">
+                            <h3  class="h3-btn-add">large Storage</h3>
+                            <p class="text-btn-add">Extra 1TB of cloud save</p>
+                            <span>+$2/mon</span>
+                        </button>
+
+                        <button class="btn-add">
+                            <input class="checkbox-btn-add" type="checkbox" name="" id="customizable-profile-checkbox">
+                            <h3 class="h3-btn-add" >costomizable profile</h3>
+                            <p class="text-btn-add">Custom theme on your profile</p>
+                            <span>+$2/mon</span>
+                        </button>
+
+
+
+                    </div>
+
+
                 
                 
-                <span class="step-circle active">1</span>
-                <h3 class="title-step">Step 1</h3>
-                <p class="text-step">your Info</p>
+
+
+
+
+                    <div class="continer-buttons">
+                        <button class="btn-go-back" id="">Go Back</button>
+                        <button class="btn-next-steps" id="btn-next-steps">Next Step</button>
+                    </div>
+                </div>
+
             </div>
-            <div class="container-steps">
-                <span class="step-circle">1</span>
-                <h3 class="title-step">Step 1</h3>
-                <p class="text-step">your Info</p>
-            </div>
-            <div class="container-steps">
-                <span class="step-circle">1</span>
-                <h3 class="title-step">Step 1</h3>
-                <p class="text-step">your Info</p>
-            </div>
-            <div class="container-steps">
-                <span class="step-circle">1</span>
-                <h3 class="title-step">Step 1</h3>
-                <p class="text-step">your Info</p>
-            </div>
-                
-
-        
-        </div>
-
-        <div class="personal-info-container">
-
-            <h1>Personal Info</h1>
-            <p>Please provide your name,
-            email address, and phone number.</p>
-
-            <form action="">Name</form>
-            <input type="text">
-
-            <form action="">Email Address</form>
-            <input type="email">
-
-            <form action="">Phone number</form>
-            <input type="number">
-
-            
-            
-            
-            
-                <button class="btn-steps" id="btn-steps">Next Step</button>
-                
-            
-        </d>
 
 
-    </section>
+
+        </section>
 
 
-    
+
+    </main>
+
 </body>
 
 <script src="script.js"></script>
+
 </html>
