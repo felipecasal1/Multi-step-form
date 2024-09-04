@@ -189,6 +189,14 @@ main {
 
 
 
+.text-per-year{
+    display: flex;
+}
+
+.hidden-price{
+    display: none;
+}
+
 /*step 3 zone */
 .container-step-3{
     display: grid;
@@ -236,7 +244,13 @@ main {
 /*JS CLASES */
 .error:placeholder-shown{
     border: solid red 1px;
+    transform: scale(1.04);
 }
+
+.hidden {
+    display: none;
+}
+
 
 
 /* toggle off/on btn*/
