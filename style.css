@@ -168,7 +168,7 @@ main {
     width: 100px;
     height: 140px;
 
-    border: solid 2px rgb(66, 66, 193);
+    border: solid 2px black;
     border-radius: 10px;
 
 
@@ -195,6 +195,12 @@ main {
 
 .hidden-price{
     display: none;
+}
+
+.btn-active{
+    border: solid 3px  rgb(66, 124, 193);
+    border-radius: 10px;
+    
 }
 
 /*step 3 zone */
